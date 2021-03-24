@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "file:///C:/Users/rifat/Documents/GitHub/RSQxRAGE/INDEX.HTML",
+            "webRoot": "${workspaceFolder}"
+        }
+
+    ]
+}
