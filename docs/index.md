@@ -1,37 +1,168 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/rifatrah/RSQxRage/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGE WEBSITE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+  <style>
+    body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    background-image: url(images/wp6030002.jpg);
+    background-repeat: repeat;
+}
 
-### Markdown
+h1 {
+    color: rgb(255, 0, 0);
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+h2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
 
-```markdown
-Syntax highlighted code block
+h3 {
+    color: rgb(255, 0, 0);
+}
 
-# Header 1
-## Header 2
-### Header 3
+span {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
 
-- Bulleted
-- List
+p {
+    color: aliceblue;
+}
 
-1. Numbered
-2. List
+.topd {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
 
-**Bold** and _Italic_ and `Code` text
+.topd img {
+    width: 100%;
+    height: 500px;
+}
 
-[Link](url) and ![Image](src)
-```
+.tops {
+    background-color: rgb(255, 255, 255);
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+section {
+    width: 100%;
+    height: 500px;
+    background-image: url(images/wp6030002.jpg);
+    background-repeat: repeat;
+    margin: 0;
+}
 
-### Jekyll Themes
+.linkhm {
+    text-decoration: none;
+    background-color: rgb(255, 253, 253);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rifatrah/RSQxRage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+.footd {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
 
-### Support or Contact
+.footd img {
+    width: 100%;
+    height: 500px;
+}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+.foots {
+    background-color: rgb(255, 255, 255);
+}
+
+.ea {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+.ead {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: red 10px 10px 40px;
+    border-radius: 5px;
+    height: 85%;
+}
+
+#join {
+    border-left: 7px solid rgb(255, 255, 255);
+}
+
+#req {
+    border-left: 7px solid rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+}
+  </style>
+    <section class="tops">
+        <div class="topd">
+            <h2>WELCOME TO</h2>
+            <h2><span class="RAGE">RAGE GAMER</span> PORTAL </h2>
+            <h3>Professional Gamer & Clan Leader</h3>
+            <P>I am an professional gamer and and a clan leader from bangladesh . you can join our clan if you have the skills to be number 1</P>
+            <a class="linkhm" target="_blank" href="https://discord.gg/rEMJNMNSQA">JOIN OUR DISCORD</a>
+        </div>
+
+        <div class="topd">
+            <img src="images/logo.png" alt="">
+        </div>
+
+    </section>
+    <section class="foots">
+        <div class="footd">
+            <img src="images/rifat.jpg" alt="">
+        </div>
+        <div class="footd">
+            <h2>DREAM BIG</h2>
+            <h3>become a gamer</h3>
+            <p>i already played many competetive games and now i want to help my clanmates to reach the place i am now</p>
+            <a class="linkhm" target="_blank" href="https://www.facebook.com/ragerifat">MY PAGE</a>
+        </div>
+    </section>
+
+    <section class="ea">
+        <h1>Experiances</h1>
+        <div id="join" class="ead">
+            <h2>join our clan</h2>
+            <H3>best clan in the world </H3>
+            <p>Join our Clan<br> --Clan name = Rage父Squad-- <br>--Clan tag = RSQ父(Your Name)-- <br>--Region = Asia--<br> --Clan level = 4--<br> --Device = Mobile + Emulator-- <br>--Looking For = Chill, Supportive & Friendly player-- <br>--Language = Bengali.
+                English-- <br>--Country = Bangladesh Only--
+            </p>
+        </div>
+        <div id="req" class="ead">
+            <h2>Requirements</h2>
+            <h3>we have some Requirements</h3>
+            <p>--Gameloop And Phoenix OS Emulator Only--<br> --Must Have A Normal Setup & Internet Connection--<br> --Must Have A K/D Of 2.00+ With 200+ Matches ( S16/17 )--<br> --ID LEVEL Must Be 40 Level Or Above--<br> --Have To Play With Clan Members--<br>                --Must Be Active On Discord--<br> --Must Be Active On The Facebook Messenger Chat Group--<br> --Must Have A Voice Chat System--<br> --Must Have A Rename Card--<br> --Must Have Clan Logo In Game & Discord Avatar Cover--<br> --Must Be Non-Toxic
+                & Chil--<br>
+        </div>
+    </section>
+    <footer>
+        <p>RAGE GAMER</p>
+    </footer>
+</body>
+
+</html>
